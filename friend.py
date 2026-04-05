@@ -6,8 +6,8 @@ import os
 # ─────────────────────────────────────────
 #  CONFIGURE YOUR ACCOUNT DETAILS HERE
 # ─────────────────────────────────────────
-ACCOUNT_ID = int(os.environ["GD_ACCOUNT_ID"])
-PASSWORD   = os.environ["GD_PASSWORD"]
+ACCOUNT_ID = int(os.environ["GD_ACCOUNT_ID"]) # Set to your account id
+PASSWORD   = os.environ["GD_PASSWORD"] # Set to your account password
 
 # ─────────────────────────────────────────
 #  SOCKS5 PROXY CONFIGURATION
@@ -15,7 +15,7 @@ PASSWORD   = os.environ["GD_PASSWORD"]
 #  Or without auth: "socks5://host:port"
 #  Set to None to disable
 # ─────────────────────────────────────────
-SOCKS5_PROXY = "socks5://174.64.199.79:4145"  # e.g. "socks5://127.0.0.1:1080"
+SOCKS5_PROXY = "socks5://174.64.199.79:4145"
 
 BASE_URL = "http://www.boomlings.com/database"
 SECRET   = "Wmfd2893gb7"
